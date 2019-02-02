@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+    margin-top: 57px;
+}
+
+.menu2 {
+    list-style-type: none;
+    display: flex;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.logo {
+    margin-top: 64px;
+}
+
+.menu-link {
+    padding: 10px 13px;
+    display: block;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu2-link {
+    width: 80px;
+    height: 25px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0px 22px 21px 11px;
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 3px solid #212121;
+    padding: 0px 20px 19px 9px;
+}
+
+.menu2-link-active {
+    width: 158px;
+    height: 27px;
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.container-feature {
+    padding: 120px 98px;
+}
+
+.container-feature-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-feature-right-ankor{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+}
+
+.slider-h4 {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: -2.5px;
+}
+
+.slider-p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    letter-spacing: 3.6px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 45px;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+.button:hover {
+    background-color: #f9f9f9;
+}
+
+.button:active {
+    box-shadow: 0 0 5px 1px rgba(33, 33, 33, 0.35);
+    position: relative;
+    top: 2px;
+}
+
+.slider-text {
+    width: 458px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #212121;
+    opacity: 0.2; 
+    display: block;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    opacity: 1;
+}
+
+
+.slider-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 19px;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+}
+
+.container-feature-2 {
+    margin-top: 50px;
+}
+
+.featured-product {
+    position: relative;
+}
+
+.featured-product, .featured-product-img, .white-box { 
+    width: 270px;
+    height: 270px;
+}
+
+.white-box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.9;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+}
+
+.featured-product:hover > .white-box {
+    display: flex;   
+}
+
+.featured-product-name {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    margin: 0px 20px;
+}
+
+.featured-product-details {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21.91px;
+    margin: 0px 20px;
+}
+.div-circle-button {
+    position: relative;
+    width: 56px;
+}
+
+.circle-arrow {
+    position: absolute;
+    z-index: 1;
+}
