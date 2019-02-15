@@ -392,3 +392,55 @@ body {
     font-weight: 300;
     line-height: 24.04px;
 }
+.f-main-li {
+    list-style: none;
+}
+.f-main-link {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+.mobile {
+    min-height: 516px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mobile-text {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mobile-text-h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+}
+.mobile-text-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 200;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+.mobile-text-p {
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    padding-top: 20px;
+}
+.mobile-box {
+    padding-top: 30px;
+}
+.footer-main-box {
+    display: flex;
+}
